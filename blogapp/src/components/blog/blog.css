@@ -1,0 +1,136 @@
+.blog {
+  margin: 50px 0;
+}
+.blog .boxItems {
+  transition: 0.5s;
+}
+.blog .boxItems:hover {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+.blog img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.blog .icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.blog .tag a {
+  color: blue;
+  opacity: 0.7;
+}
+.blog .tag {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.blog h3 {
+  font-weight: 500;
+}
+.blog p {
+  color: #999;
+  font-weight: 400;
+  margin: 20px 0;
+  font-size: 17px;
+  line-height: 25px;
+}
+.blog .date {
+  display: flex;
+  align-items: center;
+}
+.blog .date label {
+  display: block;
+  margin-right: 20px;
+}
+
+/* /////////////////////// */
+
+
+.image-generator {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.image-generator::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background: #121212;
+}
+.image-generator .content {
+  position: relative;
+  color: #fff;
+  padding: 0 15px;
+  max-width: 760px;
+  text-align: center;
+}
+.image-generator h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.image-generator p {
+  margin-top: 10px;
+  font-size: 1.35rem;
+}
+.image-generator .generate-form {
+  width: 100%;
+  height: 56px;
+  padding: 6px;
+  display: flex;
+  margin-bottom: 15px;
+  background: #fff;
+  align-items: center;
+  border-radius: 30px;
+  margin-top: 45px;
+  justify-content: space-between;
+}
+.generate-form .prompt-input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  padding: 0 17px;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  border-radius: 30px;
+}
+.generate-form .controls {
+  display: flex;
+  height: 100%;
+  gap: 15px;
+}
+.generate-form .img-quantity {
+  outline: none;
+  border: none;
+  height: 44px;
+  background: none;
+  font-size: 1rem;
+}
+.generate-form .generate-btn {
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  height: 100%;
+  padding: 0 25px;
+  border-radius: 30px;
+  background: #4949E7;
+  font-size: 30px;
+}
+
+
